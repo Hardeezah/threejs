@@ -23,6 +23,14 @@ export const navLinks = [
 
 export const clientReviews = [
   {
+    id: 3,
+    name: 'Setting up Redis in a Next.js Application',
+    position: 'https://dev.to/dee_codes/setting-up-redis-in-a-nextjs-application-1h1d ',
+    img: 'assets/review3.png',
+    review:
+      'In this article, we’ll walk you through how to integrate Redis into a Next.js application, covering both server-side logic and practical use cases like caching and session storage. We’ll be using Upstash Redis, a serverless Redis service that works perfectly with Vercel and other platforms.',
+  },
+  {
     id: 1,
     name: 'How to Set Up MongoDB with Next.js',
     position: 'https://dev.to/dee_codes/how-to-set-up-mongodb-with-nextjs-2lkb',
@@ -38,14 +46,7 @@ export const clientReviews = [
     review:
       'Hey there! Ever thought about creating cool apps for your phone? Here is your chance! Mobile development is an exciting space. Today, I want to share some insights about mobile development platforms, common software architecture patterns, and why I am excited to join the HNG internship. Lets dive in and have some fun!',
   },
- /*  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
+  ,/* 
   {
     id: 4,
     name: 'Ether Smith',
