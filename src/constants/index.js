@@ -24,21 +24,21 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'How to Set Up MongoDB with Next.js',
+    position: 'https://dev.to/dee_codes/how-to-set-up-mongodb-with-nextjs-2lkb',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'In this tutorial, we’ll walk through the process of connecting MongoDB to a Next.js application. We’ll cover how to set up MongoDB using Mongoose, connect to MongoDB Atlas, and ensure efficient database connections in your Next.js API routes.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Mobile Development',
+    position: 'https://dev.to/dee_codes/mobile-development-epa',
+    img: 'assets/review2.jpg',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Hey there! Ever thought about creating cool apps for your phone? Here is your chance! Mobile development is an exciting space. Today, I want to share some insights about mobile development platforms, common software architecture patterns, and why I am excited to join the HNG internship. Lets dive in and have some fun!',
   },
-  {
+ /*  {
     id: 3,
     name: 'John Dohsas',
     position: 'Project Manager at UrbanTech ',
@@ -53,16 +53,16 @@ export const clientReviews = [
     img: 'assets/review4.png',
     review:
       'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
+  }, */
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Connect - Social Media Application',
+    desc: 'Connect is a vibrant social media application that enables users to share images, engage through likes, and save their favorite posts to a database. With its user-friendly interface, Connect fosters community interaction and creativity, providing a space for users to showcase their visual stories.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Built using Appwrite, React.js, React Query, TypeScript, and Tailwind CSS, Connect ensures seamless user experiences while delivering optimal performance and scalability.',
+    href: 'https://connect-3t3e.vercel.app/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -95,11 +95,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Careness - Your Companion for Mental Well-being',
+    desc: 'Careness is a comprehensive web application designed to provide users with resources and tools to support their mental well-being. Focused on interaction, support, and education, it empowers users to manage their mental health effectively in a compassionate and engaging environment.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Built using React, Redux Toolkit, Material UI, and Framer Motion, Careness ensures a smooth, responsive experience with efficient state management, delightful animations, and a visually appealing interface.',
+    href: 'https://carenesss.vercel.app/',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -132,19 +132,17 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Airbnb Clone - Modern Home Rental Platform',
+    desc: 'This Airbnb clone is a feature-rich web application that mimics the core functionalities of the popular vacation rental platform. It allows users to explore listings, book accommodations, and manage stays with ease, providing an intuitive and engaging user experience.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Built using Next.js, Tailwind CSS, NextAuth, Prisma, Zustand, and Framer Motion, the application ensures fast performance, secure authentication, smooth state management, and delightful animations for a seamless and visually appealing interface.',
+    href: 'https://airbnb-clone-j839.vercel.app/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
@@ -170,7 +168,7 @@ export const myProjects = [
       },
     ],
   },
-  {
+  /* {
     title: 'Horizon - Online Banking Platform',
     desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
     subdesc:
@@ -243,7 +241,7 @@ export const myProjects = [
         path: '/assets/framer.png',
       },
     ],
-  },
+  }, */
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -260,29 +258,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'HNG Internship',
+    pos: 'Backend Developer',
+    duration: 'June 2024 - August 2024',
+    title: "Designed secure APIs and structured databases for efficient data management using Node.js with Express, implemented OAuth and JWT for multi-user access, and collaborated with backend developers and project managers to convert tasks into GitHub tickets.",
+    icon: '/assets/hng.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Elva Technology',
+    pos: 'Frontend Developer',
+    duration: 'May 2024 - November 2024',
+    title: "Collaborated with UX/UI designers to translate design mockups into interactive web pages, integrated frontend components with backend APIs for dynamic data, and resolved bugs to ensure cross-browser compatibility and responsiveness.",
+    icon: '/assets/elva.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Freelance',
+    pos: ' Full Stack Developer',
+    duration: '2021 - 2024',
+    title: "Built and maintained a full-stack web application using Next.js for server-side rendering and client-side interactivity, developing RESTful APIs with Next.js API routes and integrating them with MongoDB for efficient data management and retrieval.",
+    icon: '/assets/freelance.png',
     animation: 'salute',
   },
 ];
