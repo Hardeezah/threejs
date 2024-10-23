@@ -37,6 +37,8 @@ const Navbar = () => {
 
           <nav className="sm:flex hidden">
             <NavItems />
+            <a href="https://drive.google.com/file/d/1aHAfvSBRGvQoE6D6Kkgrk7aNDrSQesph/view?usp=sharing" className="text-[#BEC1D0] text-center mx-10 my-2 font-bold ">Check Resume</a>
+
           </nav>
         </div>
       </div>
