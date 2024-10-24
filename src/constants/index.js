@@ -23,6 +23,14 @@ export const navLinks = [
 
 export const clientReviews = [
   {
+    id: 4,
+    name: 'How to Generate and Verify OTPs in Next.js',
+    position: 'https://dev.to/dee_codes/how-to-generate-and-verify-otps-in-nextjs-30i5 ',
+    img: 'assets/otp.png',
+    review:
+      'When building modern web applications, One-Time Passwords (OTPs) are critical in two-factor authentication and user verification workflows. This guide will teach us how to generate, send, and verify OTPs using Next.js and a mock email service. By the end, you’ll understand how OTPs can enhance security and improve user experience.',
+  },
+  {
     id: 3,
     name: 'Setting up Redis in a Next.js Application',
     position: 'https://dev.to/dee_codes/setting-up-redis-in-a-nextjs-application-1h1d ',
@@ -31,7 +39,7 @@ export const clientReviews = [
       'In this article, we’ll walk you through how to integrate Redis into a Next.js application, covering both server-side logic and practical use cases like caching and session storage. We’ll be using Upstash Redis, a serverless Redis service that works perfectly with Vercel and other platforms.',
   },
   {
-    id: 1,
+    id: 2,
     name: 'How to Set Up MongoDB with Next.js',
     position: 'https://dev.to/dee_codes/how-to-set-up-mongodb-with-nextjs-2lkb',
     img: 'assets/review1.png',
@@ -39,7 +47,7 @@ export const clientReviews = [
       'In this tutorial, we’ll walk through the process of connecting MongoDB to a Next.js application. We’ll cover how to set up MongoDB using Mongoose, connect to MongoDB Atlas, and ensure efficient database connections in your Next.js API routes.',
   },
   {
-    id: 2,
+    id: 1,
     name: 'Mobile Development',
     position: 'https://dev.to/dee_codes/mobile-development-epa',
     img: 'assets/review2.jpg',
