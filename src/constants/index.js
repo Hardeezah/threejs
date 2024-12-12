@@ -67,6 +67,48 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: 'PitchNest - A Startup Pitch Platform',
+    desc: 'A Next.js 15 platform where entrepreneurs can submit their startup ideas for virtual pitch competitions, browse other pitches, and gain exposure through a clean minimalistic design for a smooth user experience.',
+    subdesc:
+      'Built with Next.js 15,Typescript, Tailwind CSS, Sanity.io, and Sentry.io, our platform offers a sleek, minimalist design, a powerful content management system, and robust error monitoring to provide a seamless and engaging experience for entrepreneurs and investors alike.',
+    href: 'https://pitchnest.vercel.app/',
+    texture: '/textures/project/project6.mp4',
+    logo: '/assets/project-logo6a.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/Next.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Sanity',
+        path: '/assets/Sanity.svg',
+      },
+      {
+        id: 5,
+        name: 'Sentry',
+        path: '/assets/Sentry.svg',
+      },
+    ],
+  },
+  {
     title: 'Connect - Social Media Application',
     desc: 'Connect is a vibrant social media application that enables users to share images, engage through likes, and save their favorite posts to a database. With its user-friendly interface, Connect fosters community interaction and creativity, providing a space for users to showcase their visual stories.',
     subdesc:
