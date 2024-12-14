@@ -54,7 +54,7 @@ export const clientReviews = [
     review:
       'Hey there! Ever thought about creating cool apps for your phone? Here is your chance! Mobile development is an exciting space. Today, I want to share some insights about mobile development platforms, common software architecture patterns, and why I am excited to join the HNG internship. Lets dive in and have some fun!',
   },
-  ,/* 
+  /* 
   {
     id: 4,
     name: 'Ether Smith',
@@ -66,6 +66,38 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
+  {
+    title: 'Zentry Inspired App',
+    desc: 'A Zentry-inspired platform with smooth, dynamic animations that engage users as they interact with the app. Featuring sleek transitions and a minimalist design, the app provides an immersive experience with visually appealing and interactive elements.',
+    subdesc:'Built with React, GSAP for advanced animations, Tailwind CSS for responsive styling, and a clean, modern UI, this platform captures the essence of Zentrys seamless user experience, delivering smooth transitions and animations while ensuring optimal performance and usability.',
+    href: 'https://gsapproject.vercel.app/',
+    texture: '/textures/project/project7.mp4',
+    logo: '/assets/project-logo7.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'GSAP',
+        path: '/assets/gsap-white.svg',
+      },
+      
+    ],
+  },
   {
     title: 'PitchNest - A Startup Pitch Platform',
     desc: 'A Next.js 15 platform where entrepreneurs can submit their startup ideas for virtual pitch competitions, browse other pitches, and gain exposure through a clean minimalistic design for a smooth user experience.',
@@ -140,8 +172,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Appwrite',
+        path: '/assets/appwrite.svg',
       },
     ],
   },
@@ -199,8 +231,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/Next.svg',
       },
       {
         id: 2,
@@ -214,8 +246,13 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Mongodb',
+        path: '/assets/mongodb.svg',
+      },
+      {
+        id: 5,
+        name: 'Prisma',
+        path: '/assets/prisma.svg',
       },
     ],
   },
