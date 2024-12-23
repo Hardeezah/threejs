@@ -29,6 +29,9 @@ const Hero = () => {
           Hi, I am Dee <span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">Software Developer and Writer.</p>
+        <p className=" text-sm font-medium text-slate-300 italic text-center font-generalsans">
+          NEXTJS, REACTJS, NODEJS, MONGODB, POSTGRES SQL, APPWRITE, JEST, TYPESCRIPT, REACT NATIVE, SANITY, SOLIDITY.
+        </p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
